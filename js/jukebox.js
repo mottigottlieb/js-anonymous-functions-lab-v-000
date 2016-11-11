@@ -19,7 +19,7 @@ function menu() {
     $('#menuOptions').html("You can play a song, pause a song, or view all the songs");
   });
 }
-
+ 
 function play() {
   $('#play').on('click', function(e) {
     $('#songPlaying').html("now playing " + songToPlay + " by " + theArtist);
